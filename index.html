@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deveep</title>
+    <link rel="stylesheet" href="./res/css/style.css">
+    <link rel="stylesheet" href="./res/css/contact.css">
+    <link rel="stylesheet" href="./res/css/options.css">
+    <link rel="stylesheet" href="./res/css/home.css">
+    <link rel="stylesheet" href="./res/css/signup.css">
+</head>
+<body class="body-image">
+    <div class="page">
+        <div class="active-tab"></div>
+        <div class="header">
+            <div class="header-options">&lt;/&gt;</div>
+            
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="Search"></input>
+                <div class="search-focus"></div>
+            </div>
+            
+            <div class="tabs">
+                <div class="header-tab header-home active">Home</div>
+                <div class="header-tab header-about">About</div>
+                <div class="header-tab header-products">Products</div>
+                <div class="header-tab header-services">Services</div>
+                <div class="header-tab header-contact">Contact</div>
+                <div class="header-tab header-signup">Sign up</div>
+            </div>
+        </div>
+
+        <div class="options-menu">
+            <div class="options-tab">
+                <div class="options-tab-text">Toggle click effect</div>
+                <div class="toggle-switch"></div>
+            </div>
+            <div class="options-tab">
+                <div class="options-tab-text">Image background</div>
+                <div class="toggle-switch toggle-switch-active"></div>
+            </div>
+            <div class="options-tab">
+                <div class="options-tab-text">Transparent menu</div>
+                <div class="toggle-switch"></div>
+            </div>
+            <div class="options-tab">
+                <div class="options-tab-text">Light mode [Not Implemented]</div>
+                <div class="toggle-switch unrendered"></div>
+            </div>
+        </div>
+    
+        <div class="body">
+            <div class="body-tab body-home body-active">
+                <div class="home-welcome">Discover Limitless Possibilities with our<br>Custom Programs<br>
+                    <div class="home-button-container">
+                        <span>Order Today!</span>
+                        <div class="home-getstarted">Get started</div>
+                        <div class="home-signup">Sign up</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="body-tab body-about"></div>
+            <div class="body-tab body-products"></div>
+            <div class="body-tab body-services"></div>
+
+            <div class="body-tab body-contact">
+                <div class="contact-container">
+                    <div class="contact-title title">Contact us</div>
+                    <input type="text" class="contact-input contact-name" placeholder="Name"></input>
+                    <input type="text" class="contact-input contact-email" placeholder="Email"></input>
+                    <textarea class="contact-input contact-text"></textarea>
+                </div>
+            </div>
+
+            <div class="body-tab body-signup">
+                <div class="signup-container">
+                    <div class="signup-titlebar">
+                        <div class="signup-title title">Sign up</div>
+                        <div class="signup-signin">Sign in</div>
+                    </div>
+                    <input type="text" class="signup-input signup-username" placeholder="Username"></input>
+                    <input type="text" class="signup-input signup-email" placeholder="Email"></input>
+                    <div class="signup-passwords">
+                        <input type="text" class="signup-input signup-password" placeholder="Password"></input>
+                        <input type="text" class="signup-input signup-confirmpassword" placeholder="Confirm Password"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <canvas class="canvas"></canvas>
+    </div>
+    
+    <script src="./res/active-tab.js"></script>
+    <script src="./res/search-border.js"></script>
+    <script src="./res/options.js"></script>
+    <script src="./res/canvas.js"></script>
+    
+    <script src="./res/register.js"></script>
+    <!-- <script src="./res/register.js" type="module"></script> -->
+
+</body>
+</html>
